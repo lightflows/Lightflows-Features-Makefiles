@@ -1,0 +1,3 @@
+<?php
+
+include_once('lightflows_wysiwyg.features.inc');
