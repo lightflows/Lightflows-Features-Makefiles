@@ -17,6 +17,11 @@ projects[lightflows_wysiwyg][type] = "module"
 projects[lightflows_wysiwyg][download][type] = "git"
 projects[lightflows_wysiwyg][download][url]="git@github.com:lightflows/WYSIWYG-Media-Embed-Hack.git"
 
+projects[shortcode_custom_tags][subdir] = "custom"
+projects[shortcode_custom_tags][type] = "module"
+projects[shortcode_custom_tags][download][type] = "git"
+projects[shortcode_custom_tags][download][url]="git@github.com:lightflows/Lightflows-Shortcodes.git"
+
 ; FILE HANDLING
 projects[transliteration][subdir] = "contrib"
 projects[imce][subdir] = "contrib"
@@ -25,19 +30,20 @@ projects[imce_wysiwyg][subdir] = "contrib"
 ; FEATURES
 projects[features][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
-projects[Exportables][subdir] = "contrib"
-projects[Libraries][subdir] = "contrib"
+projects[exportables][subdir] = "contrib"
+projects[libraries][subdir] = "contrib"
 
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[input_formats][subdir] = "contrib"
+projects[shortcode][subdir] = "contrib"
 
 ; Add a patch to make wysiwyg exportable.
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-exportables_and_features_with_ui-1060846-11_1.patch"
 
 ;IMAGE CAPTIONS
-projects[Image_caption][subdir] = "contrib"
+projects[image_caption][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 
 ; LIBRARIES
