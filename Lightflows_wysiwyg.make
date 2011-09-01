@@ -30,6 +30,7 @@ projects[imce_wysiwyg][subdir] = "contrib"
 ; FEATURES
 projects[features][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
+projects[exportables][version] = 2.0-beta1
 projects[exportables][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
 
@@ -37,14 +38,22 @@ projects[libraries][subdir] = "contrib"
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg_filter][subdir] = "contrib"
 projects[input_formats][subdir] = "contrib"
-projects[shortcode][subdir] = "contrib"
+
+;SHORTCODE
+projects[shortcode][subdir] = "custom"
+projects[shortcode][type] = "module"
+projects[shortcode][download][type] = "git"
+projects[shortcode][download][url]="git@github.com:lightflows/Shortcode.git"
 
 ; Add a patch to make wysiwyg exportable.
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-exportables_and_features_with_ui-1060846-11_1.patch"
 
 ;IMAGE CAPTIONS
-projects[image_caption][subdir] = "contrib"
-projects[wysiwyg][subdir] = "contrib"
+projects[image_caption][subdir] = "custom"
+projects[image_caption][type] = "module"
+projects[image_caption][download][type] = "git"
+projects[image_caption][download][url]="git@github.com:lightflows/Image-caption.git"
+
 
 ; LIBRARIES
 projects[libraries][subdir] = "contrib"
@@ -60,6 +69,12 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2.1/ckeditor_3.2.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
+;CKEDITOR STYLE SHEETS
+projects[ckeditor_styles][subdir] = "custom"
+projects[ckeditor_styles][type] = "module"
+projects[ckeditor_styles][download][type] = "git"
+projects[ckeditor_styles][download][url]="git@github.com:lightflows/CKEditor-Styles.git"
 
 ; jQuery UI
 libraries[jquery_ui][download][type] = "get"
