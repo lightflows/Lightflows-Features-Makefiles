@@ -33,6 +33,7 @@ projects[strongarm][subdir] = "contrib"
 projects[exportables][version] = 2.0-beta1
 projects[exportables][subdir] = "contrib"
 projects[libraries][subdir] = "contrib"
+projects[ctools][subdir] = "contrib"
 
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
@@ -48,6 +49,12 @@ projects[shortcode][type] = "module"
 projects[shortcode][download][type] = "git"
 projects[shortcode][download][url]="git@github.com:lightflows/Shortcode.git"
 
+projects[shortcode][subdir] = "custom"
+projects[shortcode][type] = "module"
+projects[shortcode][download][type] = "git"
+projects[shortcode][download][url]="git@github.com:lightflows/shortcode-lightflows-tags.git"
+
+
 ; Add a patch to make wysiwyg exportable.
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-exportables_and_features_with_ui-1060846-11_1.patch"
 
@@ -59,7 +66,7 @@ projects[image_caption][download][url]="git@github.com:lightflows/Image-caption.
 
 ; TinyMCE 
 libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://downloads.sourceforge.net/project/tinymce/TinyMCE/3.4.4/tinymce_3_4_4.zip"
+libraries[tinymce][download][url] = "http://sourceforge.net/projects/tinymce/files/TinyMCE/3.3.9.2/tinymce_3_3_9_2.zip/download"
 libraries[tinymce][directory_name] = "tinymce"
 
 ; CKEditor
