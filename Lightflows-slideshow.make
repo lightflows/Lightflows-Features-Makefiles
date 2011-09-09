@@ -1,8 +1,18 @@
 ; DRUPAL VERSION
 core = 6.x
 
-;MISC
 
+;IMAGES
+projects[imageapi][subdir] = "contrib"
+projects[imagecache][subdir] = "contrib"
+projects[itweak_upload][subdir] = "contrib"
+projects[imagecache_actions][subdir] = "contrib"
+projects[imagecrop][subdir] = "contrib"
+projects[imagefield_focus][subdir] = "contrib"
+projects[filefield_sources][subdir] = "contrib"
+
+;MISC
+projects[ctools][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 
 ;CCK
@@ -24,6 +34,15 @@ projects[views_attach][subdir] = "contrib"
 projects[views_customfield][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
 projects[draggableviews][subdir] = "contrib"
+
+; jQuery UI
+projects[jquery_ui][subdir] = "contrib"
+libraries[jquery_ui][download][type] = "get"
+;libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+
  
 
 
