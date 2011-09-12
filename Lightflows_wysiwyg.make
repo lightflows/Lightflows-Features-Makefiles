@@ -52,7 +52,7 @@ projects[shortcode][download][url]="git@github.com:lightflows/Shortcode.git"
 projects[shortcode][subdir] = "custom"
 projects[shortcode][type] = "module"
 projects[shortcode][download][type] = "git"
-projects[shortcode][download][url]="git@github.com:lightflows/shortcode-lightflows-tags.git"
+projects[shortcode][download][url]="git@github.com:lightflows/Shortcode-Lightflows-tags.git"
 
 
 ; Add a patch to make wysiwyg exportable.
