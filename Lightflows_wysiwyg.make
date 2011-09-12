@@ -43,6 +43,12 @@ projects[wysiwyg_filter][type] = "module"
 projects[wysiwyg_filter][download][type] = "git"
 projects[wysiwyg_filter][download][url]="git@github.com:lightflows/WYSIWYG-Filter.git"
 
+;WYSIWYG feature
+projects[wysiwyg_starter][subdir] = "features"
+projects[wysiwyg_starter][type] = "module"
+projects[wysiwyg_starter][download][type] = "git"
+projects[wysiwyg_starter][download][url]="git@github.com:lightflows/WYSIWYG-Starter.git"
+
 ;SHORTCODE
 projects[shortcode][subdir] = "custom"
 projects[shortcode][type] = "module"
