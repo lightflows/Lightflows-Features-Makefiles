@@ -17,11 +17,6 @@ projects[lightflows_wysiwyg][type] = "module"
 projects[lightflows_wysiwyg][download][type] = "git"
 projects[lightflows_wysiwyg][download][url]="git@github.com:lightflows/WYSIWYG-Media-Embed-Hack.git"
 
-;projects[shortcode_custom_tags][subdir] = "custom"
-;projects[shortcode_custom_tags][type] = "module"
-;projects[shortcode_custom_tags][download][type] = "git"
-;projects[shortcode_custom_tags][download][url]="git@github.com:lightflows/Lightflows-Shortcodes.git"
-
 ; FILE HANDLING
 projects[transliteration][subdir] = "contrib"
 projects[imce][subdir] = "contrib"
@@ -55,10 +50,10 @@ projects[shortcode][type] = "module"
 projects[shortcode][download][type] = "git"
 projects[shortcode][download][url]="git@github.com:lightflows/Shortcode.git"
 
-projects[shortcode][subdir] = "custom"
-projects[shortcode][type] = "module"
-projects[shortcode][download][type] = "git"
-projects[shortcode][download][url]="git@github.com:lightflows/Shortcode-Lightflows-tags.git"
+projects[shortcode_lightflows_tags][subdir] = "custom"
+projects[shortcode_lightflows_tags][type] = "module"
+projects[shortcode_lightflows_tags][download][type] = "git"
+projects[shortcode_lightflows_tags][download][url]="git@github.com:lightflows/Shortcode-Lightflows-tags.git"
 
 
 ; Add a patch to make wysiwyg exportable.
