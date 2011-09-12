@@ -17,6 +17,11 @@ projects[lightflows_wysiwyg][type] = "module"
 projects[lightflows_wysiwyg][download][type] = "git"
 projects[lightflows_wysiwyg][download][url]="git@github.com:lightflows/WYSIWYG-Media-Embed-Hack.git"
 
+;projects[shortcode_custom_tags][subdir] = "custom"
+;projects[shortcode_custom_tags][type] = "module"
+;projects[shortcode_custom_tags][download][type] = "git"
+;projects[shortcode_custom_tags][download][url]="git@github.com:lightflows/Lightflows-Shortcodes.git"
+
 ; FILE HANDLING
 projects[transliteration][subdir] = "contrib"
 projects[imce][subdir] = "contrib"
@@ -33,16 +38,11 @@ projects[ctools][subdir] = "contrib"
 ; WYSIWYG
 projects[wysiwyg][subdir] = "contrib"
 projects[input_formats][subdir] = "contrib"
+
 projects[wysiwyg_filter][subdir] = "custom"
 projects[wysiwyg_filter][type] = "module"
 projects[wysiwyg_filter][download][type] = "git"
 projects[wysiwyg_filter][download][url]="git@github.com:lightflows/WYSIWYG-Filter.git"
-
-;WYSIWYG feature
-projects[wysiwyg_starter][subdir] = "features"
-projects[wysiwyg_starter][type] = "module"
-projects[wysiwyg_starter][download][type] = "git"
-projects[wysiwyg_starter][download][url]="git@github.com:lightflows/WYSIWYG-Starter.git"
 
 ;SHORTCODE
 projects[shortcode][subdir] = "custom"
@@ -90,5 +90,11 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
+;FEATURES - finally checkout the feature
+
+projects[wysiwyg_starter][subdir] = "features"
+projects[wysiwyg_starter][type] = "module"
+projects[wysiwyg_starter][download][type] = "git"
+projects[wysiwyg_starter][download][url]="git@github.com:lightflows/WYSIWYG-Starter.git"
 
 
